@@ -515,6 +515,10 @@ maritime_ideas = {
 
 	ai_will_do = {
 		factor = 0.25
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 5 }
+		}
 	}
 }
 
@@ -574,6 +578,10 @@ gross0 = {
 	ai_will_do = {
 		factor = 1
 		#LIMIT
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 5 }
+		}
 		modifier = {
 			factor = 0
 			is_tribal = yes
@@ -655,9 +663,10 @@ galle0 = {
 	
 	ai_will_do = {
 		factor = 1.0
+
 		modifier = {
 			factor = 0
-			NOT = { num_of_ports = 3 }
+			NOT = { num_of_ports = 5 }
 		}
 		modifier = {
 			factor = 0
@@ -748,6 +757,10 @@ handel0 = {
 		#LIMIT
 		modifier = {
 			factor = 0
+			NOT = { num_of_ports = 5 }
+		}
+		modifier = {
+			factor = 0
 			is_tribal = yes
 		}
 		modifier = {
@@ -828,7 +841,7 @@ kolonialimperium0 = {
 	}
 	
 	ai_will_do = {
-		factor = 1.0
+		factor = 0.5
 		modifier = {
 			factor = 0
 			is_colonial_nation = yes
@@ -1028,6 +1041,10 @@ flottenbasis0 = {
 	
 	ai_will_do = {
 		factor = 1.0
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 5 }
+		}
 	}
 }
 
