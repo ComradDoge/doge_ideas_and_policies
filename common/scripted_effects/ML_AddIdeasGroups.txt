@@ -10,10 +10,11 @@ ML_on_country_vassal_released = {
 		# save the number of ideas in variables
 		GetAllIdeas = yes
 		PREV = {
-		set_variable = {
-			which = numOfFreeIdeas
-			which = PREV
-		} }
+			set_variable = {
+				which = numOfFreeIdeas
+				which = PREV
+			}
+		}
 		country_event = {
 			id = ML_FreeIdeasForAll.1
 			days = 50
