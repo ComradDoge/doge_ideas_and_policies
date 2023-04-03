@@ -153,7 +153,14 @@ technology = { #Modern Theocracy
 	}
 	
 	gravel_road = yes
-
+	externalministry = yes
+	intelministry = yes
+	colonialministry = yes
+	navalministry = yes
+	celestialministry = yes
+	imperialministry = yes
+	commerceministry = yes
+	
 	theocratic_government = yes
 }
 
