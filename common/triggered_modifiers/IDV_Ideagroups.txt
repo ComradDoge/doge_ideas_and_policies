@@ -16,8 +16,10 @@ dynastic_bonus = { #elective_monarchy_dip_buff
 		has_idea_group = dynasty0
 	}
 	trigger = {
-		has_idea = foreign_embassies_2
-		has_reform = elective_monarchy
+		OR = {
+			has_reform = elective_monarchy
+			has_reform = elective_monarchy_reform
+		}
 	}
 	monarch_diplomatic_power = 1
 }
@@ -28,7 +30,10 @@ dynastic_bonus = { #elective_monarchy_dip_buff
 #	}
 #	trigger = {
 #		has_idea = monarchie1 
-#		has_reform = elective_monarchy
+#		OR = {
+#			has_reform = elective_monarchy
+#			has_reform = elective_monarchy_reform
+#		}
 #	}
 #	monarch_admin_power = 1
 #	prestige = 1
@@ -526,7 +531,7 @@ kolo5_1_bonus = {
 	is_colonial_nation = yes
 
 	}
-	build_cost = -0.3
+	build_cost = -0.2
 	
 }
 
@@ -554,6 +559,6 @@ entwicklung_6_bonus = { # Administrative Ideas Subject Build Cost
 	overlord = {	has_idea = organised_mercenary_recruitment }
 
 	}
-	build_cost = -0.25
+	build_cost = -0.2
 	
 }
