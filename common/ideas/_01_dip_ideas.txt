@@ -947,7 +947,7 @@ assimilation0 = {
 	}
 	
 	assimilation3 = {
-		religious_unity = 0.25
+		culture_conversion_time = -0.5
 	}
 
 	assimilation4 = {
