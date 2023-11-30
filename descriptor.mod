@@ -1,4 +1,4 @@
-name="1.36 Doge's Ideas and Policies"
+name="1.36 Doge's Idea Groups and Policies"
 tags={
 	"Balance"
 	"Idea Groups"
