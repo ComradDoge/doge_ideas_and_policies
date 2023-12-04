@@ -210,37 +210,32 @@ expansion_ideas = {
 	important = yes
 
 	bonus = {
-		merchants = 1
-		global_trade_power = 0.2
+		min_autonomy_in_territories = -0.1
 	}
 	
 	additional_colonists = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
-	
-	expan2 = {
-		cb_on_overseas = yes
+	additional_merchants = {
+		merchants = 1
 	}
-	
 	faster_colonists = {
-		global_colonial_growth = 15
+		global_colonial_growth = 25
 	}
-	
-	organised_recruiting = {
-		global_manpower_modifier = 0.1
+	vice_roys  = {
+		global_tariffs = 0.15
+ 		envoy_travel_time = -0.25
+ 	}
+	additional_diplomats = {
+		diplomats = 1
 	}
-	
-	expan5 = {
-		core_creation = -0.1
+	general_colonization_law  = {
+		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
-	
-	expan6 = {
-		governing_capacity_modifier = 0.1
-		trade_company_governing_cost = -0.1
-	}
-	
-	expan7 = {
-		harsh_treatment_cost = -0.75
+	competetive_merchants  = {
+		global_trade_power = 0.2
 	}
 	
 
@@ -610,29 +605,23 @@ entwicklung0 = {
 	entwicklung3 = {
 		global_tax_modifier = 0.1
 	}
-	
 	entwicklung4 = {
 		state_maintenance_modifier = -0.1
 	}
-
 	entwicklung2 = {
 		production_efficiency = 0.1
 	}
-
-
 	entwicklung5 = {
-		global_autonomy = -0.1
+		global_autonomy = -0.05
 	}
 	entwicklung6 = {
 		build_cost = -0.05
-
 	}
 	entwicklung7 = {
-		gold_depletion_chance_modifier = -0.15
+		gold_depletion_chance_modifier = -0.2
 	}
 	entwicklung1 = {
 		# Natural events that increase development
-		
 	}
 	
 	ai_will_do = {
@@ -662,11 +651,9 @@ gesundheit0 = {
 	gesundheit3 = {
 		global_manpower_modifier = 0.075
 	}
-
 	gesundheit4 = {
 		siege_ability = 0.075
 	}
-
 	gesundheit5 = {
 		manpower_recovery_speed = 0.1
 	}
@@ -675,7 +662,6 @@ gesundheit0 = {
 	}
 	gesundheit7 = {
 		global_tax_modifier = 0.15
-		
 	}
 	
 	ai_will_do = {
@@ -710,6 +696,7 @@ monarchie0 = {
 	}
 	
 	monarchie2 = {
+		no_stability_loss_on_monarch_death = yes
 		global_unrest = -2
 		heir_chance = 0.5
 	}
@@ -802,7 +789,7 @@ republik0 = {
 ########################################################
 
 
-aristo0 = {
+theocracy0 = {
 	category = ADM
 
 	bonus = {
@@ -816,28 +803,28 @@ aristo0 = {
 		}
 	}
 
-	aristo1 = {
+	theocracy1 = {
 		stability_cost_modifier = -0.15
 	}
-	aristo2 = {
+	theocracy2 = {
 		shock_damage = 0.05
 	}
-	aristo3 = {
+	theocracy3 = {
 		missionaries = 1
 		enforce_religion_cost = -0.25
 	}
 
-	aristo4 = {
+	theocracy4 = {
  		manpower_in_true_faith_provinces = 0.15
 	}
 
-	aristo5 = {
+	theocracy5 = {
 		artillery_power = 0.1
 	}
-	aristo6 = {
+	theocracy6 = {
 		warscore_cost_vs_other_religion = -0.15
 	}
-	aristo7 = {
+	theocracy7 = {
 		unjustified_demands = -0.25
 	}
 
@@ -940,7 +927,7 @@ horde0 = {
 }
 
 ########################################################
-####### Trade Administration / Staatsverwaltung 
+####### Trade Management
 ########################################################
 
 
@@ -954,8 +941,7 @@ staatsverwaltung0 = {
 	
 	staatsverwaltung1 = {
 		embargo_efficiency = 0.15
-		center_of_trade_upgrade_cost = -0.1
-		
+		center_of_trade_upgrade_cost = -0.5
 	}
 	staatsverwaltung2 = {
 		trade_efficiency = 0.1
@@ -964,20 +950,17 @@ staatsverwaltung0 = {
 		envoy_travel_time = -0.25
 		global_tax_modifier = 0.15
 	}
-
 	staatsverwaltung4 = {
 		trade_steering = 0.15
-		mercantilism_cost = -0.1
+		mercantilism_cost = -0.25
 	}
-
 	staatsverwaltung5 = {
-		transfer_trade_power_reasons = 5
+		transfer_trade_power_reasons = 10
 		merchants = 1
 	}
 	staatsverwaltung6 = {
 		embracement_cost = -0.15
 		global_institution_spread = 0.1
-		
 	}
 	staatsverwaltung7 = {
 		caravan_power = 0.25
@@ -1008,8 +991,8 @@ zentra0 = {
 		
 	
 	zentra1 = {
-		build_cost = -0.075
-		build_time = -0.25
+		build_cost = -0.05
+		build_time = -0.15
 	}
 	zentra2 = {
 		production_efficiency = 0.15
@@ -1017,18 +1000,16 @@ zentra0 = {
 	zentra3 = {
 		global_tax_modifier = 0.15
 	}
-
 	zentra4 = {
 		autonomy_change_time = -0.5
 		state_maintenance_modifier = -0.5
 	}
-
 	zentra5 = {
 		global_manpower_modifier = 0.075
 		global_sailors_modifier = 0.075
 	}
 	zentra6 = {
-		development_cost_modifier = -0.1
+		development_cost = -0.1
 	}
 	zentra7 = {
 		# development_cost_over_25 = yes
@@ -1067,13 +1048,12 @@ dezentra0 = {
 	}
 	dezentra3 = {
 		trade_efficiency = 0.15
+		center_of_trade_upgrade_cost = -0.25
 	}
-
 	dezentra4 = {
-		embracement_cost = -0.075
-		global_institution_spread = 0.15
+		embracement_cost = -0.1
+		global_institution_spread = 0.25
 	}
-
 	dezentra5 = {
 		governing_capacity_modifier = 0.25
 	}
@@ -1112,7 +1092,7 @@ state_affairs_idea_groups_expanded = {
 	}
 	modernized_administration = {
 		autonomy_change_time = -0.33
-		global_autonomy = -0.1
+		global_autonomy = -0.025
 	}
 	red_tape_reduction = {
 		reform_progress_growth = 0.15

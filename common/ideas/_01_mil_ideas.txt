@@ -829,8 +829,7 @@ formation0 = {
 		
 	
 	formation1 = {
-		global_ship_repair = 0.15
-		global_ship_recruit_speed = -0.15
+		artillery_levels_available_vs_fort = 1
 	}
 	formation2 = {
 		land_attrition = -0.25
@@ -848,7 +847,7 @@ formation0 = {
 		global_supply_limit_modifier = 0.5
 	}
 	formation6 = {
-		siege_ability = 0.075
+		siege_ability = 0.15
 	}
 	formation7 = {
 		leader_land_manuever = 1
@@ -927,18 +926,16 @@ shock0 = {
 	}
 		
 	shock1 = {
-		fire_damage_received = -0.1
+		fire_damage_received = -0.05
 	}
-	
 	shock2 = {
 		cavalry_flanking = 0.5
 	}
-
 	shock3 = {
 		cavalry_cost = -0.25
 	}
 	shock6 = {
-		cav_to_inf_ratio = 0.25
+		cav_to_inf_ratio = 0.3
 	}
 	shock4 = {
 		shock_damage = 0.1
@@ -977,23 +974,21 @@ fire0 = {
 		}
 	
 	bonus = {
-		artillery_power = 0.1
+		shock_damage_received = -0.05
 	}
 		
 	fire1 = {
-		shock_damage_received = -0.1
+		shock_damage_received = -0.05
 	}
 	fire2 = {
 		artillery_levels_available_vs_fort = 1
 	}
 	fire3 = {
-		artillery_power = 0.1
+		artillery_power = 0.05
 	}
-
 	fire4 = {
 		fire_damage = 0.1
 	}
-
 	fire5 = {
 		defensiveness = 0.1
 	}

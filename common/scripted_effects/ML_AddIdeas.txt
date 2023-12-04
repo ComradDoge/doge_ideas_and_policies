@@ -72,7 +72,7 @@ Addexpansion_ideas = {
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = expan2
+			add_idea = additional_merchants
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
@@ -80,19 +80,19 @@ Addexpansion_ideas = {
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = organised_recruiting
+			add_idea = vice_roys
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = expan5
+			add_idea = additional_diplomats
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = expan6
+			add_idea = general_colonization_law
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = expan7
+			add_idea = competetive_merchants
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 	}
@@ -328,35 +328,35 @@ Addrepublik0 = {
 		}
 	}
 }
-Addaristo0 = {
+Addtheocracy0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-		add_idea_group = aristo0
+		add_idea_group = theocracy0
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = aristo1
+			add_idea = theocracy1
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = aristo2
+			add_idea = theocracy2
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = aristo3
+			add_idea = theocracy3
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = aristo4
+			add_idea = theocracy4
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = aristo5
+			add_idea = theocracy5
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = aristo6
+			add_idea = theocracy6
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = aristo7
+			add_idea = theocracy7
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 	}
@@ -1769,11 +1769,11 @@ Addexploration_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
 		add_idea_group = exploration_ideas
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = colonial_ventures
+			add_idea = quest_for_the_new_world
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = quest_for_the_new_world
+			add_idea = colonial_ventures
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
@@ -1785,7 +1785,7 @@ Addexploration_ideas = {
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = vice_roys
+			add_idea = factories
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
@@ -2132,6 +2132,10 @@ Addkonigreich0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
 		add_idea_group = konigreich0
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
+			add_idea = konigreich1
+			subtract_variable = { which = numOfFreeIdeas value = 1 }
+		}
+		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
 			add_idea = konigreich2
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
@@ -2141,10 +2145,6 @@ Addkonigreich0 = {
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
 			add_idea = konigreich4
-			subtract_variable = { which = numOfFreeIdeas value = 1 }
-		}
-		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = konigreich1
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
@@ -2169,19 +2169,19 @@ Addimperialismus0 = {
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = imperialismus4
-			subtract_variable = { which = numOfFreeIdeas value = 1 }
-		}
-		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = imperialismus5
-			subtract_variable = { which = numOfFreeIdeas value = 1 }
-		}
-		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
 			add_idea = imperialismus2
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
 			add_idea = imperialismus3
+			subtract_variable = { which = numOfFreeIdeas value = 1 }
+		}
+		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
+			add_idea = imperialismus4
+			subtract_variable = { which = numOfFreeIdeas value = 1 }
+		}
+		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
+			add_idea = imperialismus5
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
