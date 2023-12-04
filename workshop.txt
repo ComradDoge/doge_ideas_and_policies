@@ -1,10 +1,7 @@
 [code]                                  [img] https://i.imgur.com/p7Fv1Z6.gif [/img] [/code]
-[quote] 
-- This is a standalone version of Ideas and Policies from my Shattered mod. The base of ideas is "Idea Variation by flogi" but has had massive changes and barely resembles it.
-
-- The mod contains around 50 idea groups, with some being exclusives and religion specific. In addition, a completely reworked policy system from the ground up that can be checked in a spreadsheet.
-
-- Anyone is free to use this mod as they see fit, just add the credits.
+[quote] [h1] Info [/h1] 
+- This is a standalone version of Ideas and Policies from my Shattered mod.
+- The mod contains around 40 idea groups. In addition, a completely reworked policy system from the ground up that can be checked in a spreadsheet.
 [/quote]
 [quote]
 [h1] Main Mod [/h1]
