@@ -636,7 +636,7 @@ mercenary0 = {
 	category = MIL
 
 	bonus = {
-		mercenary_cost = -0.2
+		mercenary_cost = -0.1
 		
 	}
 	
@@ -652,15 +652,14 @@ mercenary0 = {
 	}
 
 	mercenary4 = {
-		merc_maintenance_modifier = -0.25
+		merc_maintenance_modifier = -0.1
 	}
 
 	mercenary5 = {
 		free_leader_pool = 1
 	}
 	mercenary6 = {
-		mercenary_discipline = 0.15
-		allow_mercenary_drill = yes
+		mercenary_discipline = 0.075
 	}
 	mercenary7 = {
 		mercenary_manpower = 0.15
