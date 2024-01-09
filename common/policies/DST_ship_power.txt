@@ -341,11 +341,11 @@ dse_policy_lightship_2 = {
 
 	potential = {
 		has_idea_group = handel0
-        has_idea_group = formation0
+        has_idea_group = logistics0
 	}
 	allow = {
         full_idea_group = handel0
-		full_idea_group = formation0
+		full_idea_group = logistics0
 
 	}
 	
@@ -481,11 +481,11 @@ dse_policy_lightship_7 = {
 
 	potential = {
 		has_idea_group = flottenbasis0
-        has_idea_group = staatsverwaltung0
+        has_idea_group = trademanagement0
 	}
 	allow = {
         full_idea_group = flottenbasis0
-		full_idea_group = staatsverwaltung0
+		full_idea_group = trademanagement0
 
 	}
 	

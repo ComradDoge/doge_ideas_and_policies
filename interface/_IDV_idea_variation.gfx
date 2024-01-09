@@ -402,8 +402,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_staatsverwaltung0"
-		texturefile = "gfx//interface//ideas//idea_staatsverwaltung.tga"
+		name = "GFX_idea_trademanagement0"
+		texturefile = "gfx//interface//ideas//idea_trademanagement.tga"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
@@ -504,8 +504,8 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
-		name = "GFX_idea_formation0"
-		texturefile = "gfx//interface//ideas//idea_formation.tga"
+		name = "GFX_idea_logistics0"
+		texturefile = "gfx//interface//ideas//idea_logistics.tga"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
