@@ -559,11 +559,11 @@ Addstate_affairs_idea_groups_expanded = {
 		}
 	}
 }
-Addany_government_idea = {
+Addany_government_type_idea = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-		add_idea_group = any_government_idea
+		add_idea_group = any_government_type_idea
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = fleet_exclusive_combo_1
+			add_idea = any_government_type_idea_1
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 	}
@@ -572,7 +572,7 @@ Addany_state_focus_idea = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
 		add_idea_group = any_state_focus_idea
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = fleet_exclusive_combo_1
+			add_idea = any_state_focus_idea_1
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 	}
@@ -1666,39 +1666,6 @@ Addspy_ideas = {
 		}
 	}
 }
-Adddynasty0 = {
-	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-		add_idea_group = dynasty0
-		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = foreign_embassies_2
-			subtract_variable = { which = numOfFreeIdeas value = 1 }
-		}
-		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = establish_cadet_branches
-			subtract_variable = { which = numOfFreeIdeas value = 1 }
-		}
-		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = cabinet
-			subtract_variable = { which = numOfFreeIdeas value = 1 }
-		}
-		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = diplomatic_corps_2
-			subtract_variable = { which = numOfFreeIdeas value = 1 }
-		}
-		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = benign_diplomats
-			subtract_variable = { which = numOfFreeIdeas value = 1 }
-		}
-		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = experienced_diplomats
-			subtract_variable = { which = numOfFreeIdeas value = 1 }
-		}
-		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = dynastie4
-			subtract_variable = { which = numOfFreeIdeas value = 1 }
-		}
-	}
-}
 Addinfluence_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
 		add_idea_group = influence_ideas
@@ -1769,11 +1736,11 @@ Addexploration_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
 		add_idea_group = exploration_ideas
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = quest_for_the_new_world
+			add_idea = colonial_ventures
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = colonial_ventures
+			add_idea = quest_for_the_new_world
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
@@ -1785,7 +1752,7 @@ Addexploration_ideas = {
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = factories
+			add_idea = vice_roys
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
@@ -2194,20 +2161,20 @@ Addimperialismus0 = {
 		}
 	}
 }
-Addfleet_exclusive_combo = {
+Addany_fleet_focus_idea = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-		add_idea_group = fleet_exclusive_combo
+		add_idea_group = any_fleet_focus_idea
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = fleet_exclusive_combo_1
+			add_idea = any_fleet_focus_idea_1
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 	}
 }
-Addany_goverment_rank_idea = {
+Addany_state_power_idea = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-		add_idea_group = any_goverment_rank_idea
+		add_idea_group = any_state_power_idea
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = fleet_exclusive_combo_1
+			add_idea = any_state_power_idea_1
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 	}
@@ -2740,11 +2707,11 @@ Addfire0 = {
 		}
 	}
 }
-Addarmy_exclusive_combo = {
+Addany_army_doctrine_idea = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-		add_idea_group = army_exclusive_combo
+		add_idea_group = any_army_doctrine_idea
 		if = { limit = { check_variable = { which = numOfFreeIdeas value = 1 } }
-			add_idea = fleet_exclusive_combo_1
+			add_idea = any_army_doctrine_idea_1
 			subtract_variable = { which = numOfFreeIdeas value = 1 }
 		}
 	}

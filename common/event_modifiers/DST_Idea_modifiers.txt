@@ -10,10 +10,12 @@ ai_policy_reset_modifier = {
 ai_policy_reset_cooldown = {}
 
 dse_centralization_mechanic_country_mod = {
+	picture = "chorapolis_modifier_icon"
     development_cost_modifier = -0.1
 }
 
 dse_centralization_mechanic_province_mod = {
+	picture = "chorapolis_modifier_icon"
 	local_development_cost = -0.2
 }
 
