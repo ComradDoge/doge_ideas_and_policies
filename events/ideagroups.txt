@@ -9656,7 +9656,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = state_affairs_idea_groups_expanded # previously court_ideas 
+		has_idea_group = stateaffairs0 # previously court_ideas 
 	}
 
 	mean_time_to_happen = {
@@ -9684,7 +9684,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = state_affairs_idea_groups_expanded # previously court_ideas 
+		has_idea_group = stateaffairs0 # previously court_ideas 
 		NOT = { has_ruler_modifier = embarassing_display_modifier }
 	}
 
@@ -9718,7 +9718,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = state_affairs_idea_groups_expanded # previously court_ideas 
+		has_idea_group = stateaffairs0 # previously court_ideas 
 		has_any_estates = yes
 	}
 
@@ -9745,7 +9745,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = state_affairs_idea_groups_expanded # previously court_ideas 
+		has_idea_group = stateaffairs0 # previously court_ideas 
 		has_any_estates = yes
 	}
 
@@ -9772,7 +9772,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = state_affairs_idea_groups_expanded # previously court_ideas
+		has_idea_group = stateaffairs0 # previously court_ideas
 		is_free_or_tributary_trigger = yes
 		NOT = { has_country_flag = noble_man_exiled_dynasty_member }
 		NOT = { has_country_flag = noble_man_exiled_politician }
@@ -10358,7 +10358,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = state_affairs_idea_groups_expanded # previously court_ideas 
+		has_idea_group = stateaffairs0 # previously court_ideas 
 		OR = {
 			num_of_loans = 5
 			is_bankrupt = yes
@@ -10386,7 +10386,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = state_affairs_idea_groups_expanded # previously court_ideas 
+		has_idea_group = stateaffairs0 # previously court_ideas 
 	}
 
 	mean_time_to_happen = {
@@ -10411,7 +10411,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = state_affairs_idea_groups_expanded # previously court_ideas 
+		has_idea_group = stateaffairs0 # previously court_ideas 
 		
 	}
 

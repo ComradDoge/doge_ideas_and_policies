@@ -1014,7 +1014,7 @@ dezentra0 = {
 ####### State Affairs Ideas
 ########################################################
 
-state_affairs_idea_groups_expanded = {
+stateaffairs0 = {
 	category = ADM
 
 	bonus = {
