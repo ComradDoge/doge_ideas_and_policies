@@ -668,8 +668,13 @@ dst_policy_25 = {
 	# Modifier
 	war_exhaustion = -0.05
 
+
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 0.25
+			NOT = { war_exhaustion = 2.5 }
+		}		
 		modifier = {
 			factor = 1.5
 			war_exhaustion = 5
@@ -1499,6 +1504,14 @@ dst_policy_51 = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
+			factor = 0.25
+			legitimacy_equivalent = 80
+		}
+		modifier = {
+			factor = 0.25
+			legitimacy_equivalent = 90
+		}
+		modifier = {
 			factor = 1.25
 			NOT = { legitimacy_equivalent = 80 }
 		}
@@ -1694,6 +1707,23 @@ dst_policy_56 = {
 
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 0
+			is_year = 1700
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 2 }
+		}
+		modifier = {
+			factor = 1.5
+			num_of_colonists = 3
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { is_year = 1650 }
+			num_of_colonies = 2
+		}
 	}
 }
 
@@ -5539,6 +5569,23 @@ dst_policy_192 = {
 
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 0
+			is_year = 1700
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 2 }
+		}
+		modifier = {
+			factor = 1.5
+			num_of_colonists = 3
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { is_year = 1650 }
+			num_of_colonies = 2
+		}
 	}
 }
 
@@ -6460,6 +6507,14 @@ dst_policy_223 = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
+			factor = 0.25
+			legitimacy_equivalent = 80
+		}
+		modifier = {
+			factor = 0.25
+			legitimacy_equivalent = 90
+		}
+		modifier = {
 			factor = 1.25
 			NOT = { legitimacy_equivalent = 80 }
 		}
@@ -6746,6 +6801,18 @@ dst_policy_233 = {
 
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = { government = theocracy }
+		}
+		modifier = {
+			factor = 0.5
+			at_war_with_religious_enemy = no
+		}
+		modifier = {
+			factor = 1.5
+			at_war_with_religious_enemy = yes
+		}
 	}
 }
 
@@ -7507,6 +7574,23 @@ dst_policy_258 = {
 
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 0
+			is_year = 1700
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 2 }
+		}
+		modifier = {
+			factor = 1.5
+			num_of_colonists = 3
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { is_year = 1650 }
+			num_of_colonies = 2
+		}
 	}
 }
 
@@ -9068,6 +9152,18 @@ dst_policy_314 = {
 
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = { government = theocracy }
+		}
+		modifier = {
+			factor = 0.5
+			at_war_with_religious_enemy = no
+		}
+		modifier = {
+			factor = 1.5
+			at_war_with_religious_enemy = yes
+		}
 	}
 }
 
@@ -9298,6 +9394,10 @@ dst_policy_321 = {
 
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 0.25
+			NOT = { war_exhaustion = 2.5 }
+		}		
 		modifier = {
 			factor = 1.5
 			war_exhaustion = 5
