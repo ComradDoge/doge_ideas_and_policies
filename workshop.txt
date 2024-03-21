@@ -3,7 +3,7 @@
 
 - This is a standalone version of Ideas and Policies from my main mod which is basically EU4+ at this point.
 
-- This should be compatible with almost anything and if not completely it shouldn't crash.
+- This should be compatible with almost anything. Although any mods that add new ideas/policies will have issues.
 
 [/quote]
 [quote]
