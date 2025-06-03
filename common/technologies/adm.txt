@@ -26,7 +26,9 @@ technology = { #Tribal Government
 	native_great_trail = yes
 	native_ceremonial_fire_pit = yes
 
-	early_road = yes
+	################################### Other Mod Compatability
+	early_road = yes # Standard
+	dirt_road = yes # Post Finem
 }
 
 technology = { #Advanced Tribes
@@ -153,7 +155,11 @@ technology = { #Modern Theocracy
 		new_world_i = 0.3
 	}
 	
-	gravel_road = yes
+	theocratic_government = yes
+
+	################################### Other Mod Compatability
+	gravel_road = yes # Standard + Post Finem
+	# Ante Bellum
 	externalministry = yes
 	intelministry = yes
 	colonialministry = yes
@@ -162,7 +168,6 @@ technology = { #Modern Theocracy
 	imperialministry = yes
 	commerceministry = yes
 	
-	theocratic_government = yes
 }
 
 technology = { #Textile Manufactory
@@ -283,8 +288,9 @@ technology = { #National Sovereignty
 		printing_press = 0.5
 		global_trade = 0.3
 	}
-
-	royal_road = yes
+	################################### Other Mod Compatability
+	royal_road = yes # Standard
+	cobblestone_road = yes # Post Finem
 }
 
 technology = { #Cathedral
@@ -366,10 +372,11 @@ technology = { #Measuring the World
 		manufactories = 0.5
 	}
 
-	macadam_road = yes
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1
 	allowed_idea_groups = 11
+	################################### Other Mod Compatability
+	macadam_road = yes # Stanard + Post Finem
 }
 
 technology = { #Bonds and Tontines
@@ -495,7 +502,10 @@ technology = { #Advanced Production
 	
 	#Improved Draft Animals
 	production_efficiency 	=	0.02
-	rail_road = yes
+
+	################################### Other Mod Compatability
+	rail_road = yes # Standard
+	turnpike_road = yes # Post Finem
 }
 
 technology = { #Revolutionary Ideals
